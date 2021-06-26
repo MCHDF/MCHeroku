@@ -1,5 +1,5 @@
 # MCHeroku
-Discord JS Bot for Maintence Status
+Discord JS Bot for Maintenance Status
 
 ## 설명
 ```
