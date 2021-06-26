@@ -1,0 +1,19 @@
+{
+  "name": "mcheroku",
+  "version": "1.0.0",
+  "description": "Discord JS Bot for Maintenance Status",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MCHDF/MCHeroku.git"
+  },
+  "author": "MCHDF",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MCHDF/MCHeroku/issues"
+  },
+  "homepage": "https://github.com/MCHDF/MCHeroku#readme"
+}
