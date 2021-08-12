@@ -36,7 +36,7 @@ bot.on('message', async message => {
             .addField('[ 기간 ]', '```- 2021년 08월 13일 오후 12시까지```')
             .setTimestamp()
             .setThumbnail(bot.user.displayAvatarURL())
-            .setFooter(bot.fetchApplication().owner.tag)
+            .setFooter('MCHDF#9999')
         message.channel.send(embed);
         return;
     }
