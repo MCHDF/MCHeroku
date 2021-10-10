@@ -33,7 +33,7 @@ bot.on('message', async message => {
             .setColor('RED')
             .setDescription('현재 점검중이에요..자세한 사항은 아래를 확인해주세요!')
             .addField('[ 사유 ]', '```라즈베리파이 서버 OS 교체 및 서버 환경 재구축```')
-            .addField('[ 기간 ]', '```- 2021년 10월 9일 ~ 10일 이틀간```')
+            .addField('[ 기간 ]', '```- 2021년 10월 9일 ~ 무기한(최소 사흘)```')
             .setTimestamp()
             .setThumbnail(bot.user.displayAvatarURL())
             .setFooter('MCHDF#9999')
