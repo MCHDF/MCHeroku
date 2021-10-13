@@ -32,7 +32,7 @@ bot.on('message', async message => {
             .setTitle('Inspection')
             .setColor('RED')
             .setDescription('현재 점검중이에요..자세한 사항은 아래를 확인해주세요!')
-            .addField('[ 사유 ]', '```인터넷 모뎀과 공유기 위치 변경으로 인한 네트워크 단절 및 네트워크 재구축으로 인한 ```')
+            .addField('[ 사유 ]', '```인터넷 모뎀과 공유기 위치 변경으로 인한 네트워크 단절 및 네트워크 재구축으로 인한 점검```')
             .addField('[ 기간 ]', '```2021년 10월 13일 오전 10시 ~ 오후 12시 약 1시간```')
             .setTimestamp()
             .setThumbnail(bot.user.displayAvatarURL())
