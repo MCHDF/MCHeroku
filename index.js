@@ -1,7 +1,14 @@
-const Discord = require('discord.js');
-const bot = new Discord.Client()
 
-bot.on('ready', () => {
+const { Client, Intents} = require('discord.js');
+
+const bot = new Client({
+    intents: [
+        Intents.FLAGS.GUILDS,
+        Intents.FLAGS.GUILD_MEMBERS
+    ]
+});
+
+bot.once('ready', () => {
     console.log(`┌────────────────────────────┐`);
     console.log(`│ 봇 ${bot.user.username}이 작동 시작합니다!│`);
     console.log(`└────────────────────────────┘`);
@@ -22,7 +29,7 @@ bot.on('ready', () => {
     bot.user.setStatus('dnd');
 })
 
-bot.on('message', async message => {
+bot.on('messageCreate', async message => {
     if (message.author.bot) return;
     if (message.channel.type === 'dm') return;
 
